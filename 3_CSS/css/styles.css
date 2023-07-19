@@ -1,0 +1,196 @@
+/*External*/
+
+body {
+    padding-bottom: 500px;
+}
+h3{
+    color: darkgreen;
+}
+
+/* classes */
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+
+}
+
+/* ids */
+#exclusive-title{
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+.bg-image{
+    background-image: url("../img/20.jpg");
+    padding: 10px;
+    color:#fff;
+}
+
+/* Centralizando bg image */
+.not-centered-bg, 
+.centered-bg{
+height: 400px;
+width: 400px;
+background-image: url("../img/19.jpg");
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Padding */
+.without-padding,
+.padding{
+    background-color: #111;
+    color: #fff;
+}
+
+.padding{
+    padding: 20px;
+}
+
+/* padding com width */
+.without-border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: brown;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#desafio-3{
+    background-color: crimson;
+    color: #111;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 10px solid #111;
+    margin-top: 10px;
+    outline: 10px solid #111;
+}
+
+/* Fontes */
+
+.serif{
+    font-family: Georgia;
+}
+
+.sans-serif{
+    font-family: Helvetica;
+}
+
+.monospace{
+    font-family: Courier New;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* display */
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: azure;
+    display: block;
+    margin: 10px;
+}
+
+/* positions */
+
+.static{
+    position: static;
+    background-color: antiquewhite;
+    color: #111;
+    width: 100px;
+    height: 100px;
+}
+
+.relative{
+    position: relative;
+    background-color: #444;
+    color: #111;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    top: 30px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: burlywood;
+    color: #111;
+    width: 100px;
+    height: 100px;
+  
+}
+
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixed */
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+.stick{
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    position: sticky;
+    top: 5px;
+   
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS</title>
+        <!-- Internal CSS -->
+        <!-- <style>
+            p {
+                color: chocolate;
+            }
+        </style> -->
+        <!-- External CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/titles.css" />
+    </head>
+    <body>
+        <!-- Inline CSS -->
+        <h1 style="color: blue">Titulo 1</h1>
+        <h1 style="color: blue">Titulo 2</h1>
+
+        <!-- stick -->
+        <div class="stick">
+            <span>Stick</span>
+        </div>
+
+        <h1 style="color: pink; font-size: 50px; border-bottom: 1px solid red">Titulo 3</h1>
+
+        <p>Teste internal</p>
+        <p>Teste internal 2</p>
+
+        <h3>Teste External</h3>
+        <h4>Desafio 2</h4>
+
+        <!-- Classes -->
+        <p class="paragraph">Parágrafo 1</p>
+        <p class="paragraph">Parágrafo 2</p>
+        <p class="paragraph">Parágrafo 3</p>
+
+        <!-- Ids -->
+        <h1 id="exclusive-title">Título id</h1>
+
+        <!-- bg image -->
+        <h1 class="bg-image">Este título tem uma imagem</h1>
+
+        <!-- Centralizar imagem de bg -->
+        <div class="not-centered-bg"></div>
+        <div class="centered-bg"></div>
+
+        <!-- paddding -->
+        <!-- é o espaço entre o conteúdo e a borda do elemento -->
+        <div class="without-padding">Sem padding</div>
+        <br />
+        <div class="padding">Com padding</div>
+
+        <!-- padding com with -->
+        <!-- padding é adicionado a largura -->
+        <div class="without-border-box"><p>Algum conteúdo</p></div>
+        <div class="border-box"><p>Algum conteúdo</p></div>
+
+        <!-- Desafio 3 -->
+        <div id="desafio-3"><h2 class="desafio-3-h2">Desafio 3</h2></div>
+
+        <!-- fontes  -->
+        <p class="serif">Serif fonte</p>
+        <p class="sans-serif">Sans Serif fonte</p>
+        <p class="monospace">Monospace fonte</p>
+        <p class="cursive">Cursive fonte</p>
+        <p class="fantasy">Fantasy fonte</p>
+
+        <!-- Display -->
+        <!-- display: inline-box os elementos são exibidos um ao lado do outro -->
+        <!-- display: block o elemento ocupa a linha toda -->
+        <div class="inline-box">a</div>
+        <div class="inline-box">b</div>
+        <div class="inline-box">c</div>
+        <span class="block">Span1</span>
+        <span class="block">Span2</span>
+
+        <!-- Positions -->
+        <!-- static -->
+        <div class="static"><span>Static</span></div>
+
+        <!-- relative -->
+        <div class="relative"><span>Relative</span></div>
+        <p>Elemento teste</p>
+
+        <!-- absolute -->
+        <div class="absolute"><span>Absolute</span></div>
+        <p>Elemento teste 2</p>
+
+        <!-- relative com absolute -->
+        <!--  um elemento com position absolute é ligado ao elemento mais próximo com posição relativa 
+        Se não tiver, fica ligado ao body-->
+        <div class="relative-container">
+            <div class="absolute-1"></div>
+            <div class="absolute-2"></div>
+        </div>
+
+        <!-- fixed -->
+        <!-- Mesmo com após o scroll da página o elemento permanece na mesma posição -->
+        <div class="fixed">
+            <span>Fixed</span>
+        </div>
+    </body>
+</html>
