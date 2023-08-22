@@ -1,0 +1,34 @@
+
+
+/* media query */
+h1 {color: red;}
+/* a regra aqui vai se aplicar para telas menores que 500px */
+@media  screen and (max-width: 500px) {
+    h1 {color: blue;}
+}
+
+
+
+/* min-width */
+p{
+    background-color: red;
+    color: black;
+}
+/* a regra aqui vai se aplicar para telas maiores que 800px */
+@media screen and (min-width: 800px){
+    p{
+        background-color: #789;
+        color: red;
+    }
+}
+
+/* Landscape */
+h3{
+    display: none;
+}
+/* regra aplica para "tela virada, modo paisagem" */
+@media screen and (orientation: landscape){
+    h3{
+        display: block;
+    }
+}
