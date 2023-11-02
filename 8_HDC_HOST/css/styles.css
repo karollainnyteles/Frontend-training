@@ -87,6 +87,10 @@ nav {
     text-shadow: #000 3px 2px 3px;
 }
 
+.main-banner p {
+    font-size: 32px;
+}
+
 .main-banner h1 {
     font-size: 54px;
 }
@@ -305,4 +309,77 @@ footer {
     text-align: center;
     font-weight: bold;
     margin: 20px 0 100px;
+}
+
+/* responsiveness */
+/* small laptops a partir de 1100px */
+@media (max-width: 1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* tablet 900px */
+@media (max-width: 900px) {
+    .main-banner p {
+        padding: 0 6rem;
+    }
+
+    .search-domain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* celular 576 */
+@media (max-width: 576px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .search-domain-container h2 {
+        font-size: 28px;
+    }
+
+    .search-domain-container input[type="text"] {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 3rem 3rem;
+    }
+
+    .contact-container input, .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
 }
